@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/rainleander/jamstack1/jamstack1/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/rainleander/jamstack1/jamstack1/src/pages"
+      }
+    ],
+    "/Users/rainleander/jamstack1/jamstack1/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/rainleander/jamstack1/jamstack1/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/rainleander/jamstack1/jamstack1"
+  ],
+  "paths": {
+    "ROOT": "/Users/rainleander/jamstack1/jamstack1",
+    "SRC": "/Users/rainleander/jamstack1/jamstack1/src",
+    "DIST": "/Users/rainleander/jamstack1/jamstack1/dist",
+    "ASSETS": "/Users/rainleander/jamstack1/jamstack1/dist",
+    "PLUGINS": "/Users/rainleander/jamstack1/jamstack1/plugins",
+    "TEMP": "/Users/rainleander/jamstack1/jamstack1/tmp",
+    "ARTIFACTS": "/Users/rainleander/jamstack1/jamstack1/artifacts",
+    "PUBLIC": "/Users/rainleander/jamstack1/jamstack1/public",
+    "NODE_MODULES": "/Users/rainleander/jamstack1/jamstack1/node_modules",
+    "EXCLUDE_MODULES": "/Users/rainleander/jamstack1/jamstack1/node_modules",
+    "PACKAGE": "/Users/rainleander/jamstack1/jamstack1/package.json",
+    "HTML_TEMPLATE": "/Users/rainleander/jamstack1/jamstack1/dist/index.html",
+    "STATIC_DATA": "/Users/rainleander/jamstack1/jamstack1/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
